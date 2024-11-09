@@ -11,7 +11,7 @@ const projectsData = [
     description: "FastWheel is a user-friendly mobile application",
     image: "/images/projects/1.jpeg",
     secondaryImages: ["/images/projects/1a.jpeg", "/images/projects/1b.jpeg","/images/projects/1c.jpeg","/images/projects/1d.jpeg","/images/projects/1e.jpeg","/images/projects/1f.jpeg","/images/projects/1g.jpeg"],
-    tag: ["All", "Applications", "MobileApps"],
+    tag: ["All", "Mobile Apps"],
     gitUrl: "https://github.com/sajjadali0057",
     previewUrl: "https://github.com/sajjadali0057/FastWheel",
   },
@@ -31,7 +31,7 @@ const projectsData = [
     description: "Creademic Link is mainly introduced for the hairdresser, salon workers, or the students who want to learn deeply about this profession",
     image: "/images/projects/c.jpeg",
     secondaryImages: ["/images/projects/c1.jpeg", "/images/projects/c2.jpeg","/images/projects/c3.jpeg","/images/projects/c4.jpeg","/images/projects/c5.jpeg"],
-    tag: ["All", "Applications", "MobileApps"],
+    tag: ["All", "Mobile Apps"],
     gitUrl: "https://github.com/sajjadali0057",
     previewUrl: "https://github.com/sajjadali0057/Creademic",
   },
@@ -41,7 +41,7 @@ const projectsData = [
     description: "Care and work for humanity is the primary responsibility of all human beings. Blood Cart app is mainly designed considering this point to help people serve mankind as much as they can",
     image: "/images/projects/4a.jpeg",
     secondaryImages: ["/images/projects/4b.jpeg", "/images/projects/4c.jpeg","/images/projects/4d.jpeg","/images/projects/4e.jpeg","/images/projects/4g.jpeg"],
-    tag: ["All", "Applications", "MobileApps"],
+    tag: ["All","Mobile Apps"],
     gitUrl: "https://github.com/sajjadali0057",
     previewUrl: "https://github.com/sajjadali0057/BloodCart",
   },
@@ -51,7 +51,7 @@ const projectsData = [
     description: "Flutter Application",
     image: "/images/projects/5.jpeg",
     secondaryImages: ["/images/projects/5a.jpeg", "/images/projects/5b.jpeg","/images/projects/5c.jpeg","/images/projects/5e.jpeg","/images/projects/5f.jpeg"],
-    tag: ["All", "Applications", "MobileApps"],
+    tag: ["All","Mobile Apps"],
     gitUrl: "https://github.com/sajjadali0057",
     previewUrl: "https://github.com/sajjadali0057/IRK",
   },
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="MobileApps"
-          isSelected={tag === "MobileApps"}
+          name="Mobile Apps"
+          isSelected={tag === "Mobile Apps"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
