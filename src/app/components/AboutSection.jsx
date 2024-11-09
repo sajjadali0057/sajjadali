@@ -99,7 +99,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I&apos;m a skilled Flutter developer based in Lahore with a strong background in mobile application development. I specialize in creating responsive and adaptive UIs with clean architecture principles, using state management tools like Bloc, Cubit, and Provider. I emphasize performance optimization and efficient rendering in my projects, leveraging tools like Android Studio, VS Code, and Xcode. Skilled in Git, API integration, and agile methodologies, I bring a comprehensive approach to cross-platform app development.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex overflow-x-auto mt-8 space-x-2">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
