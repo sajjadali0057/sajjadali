@@ -50,13 +50,13 @@ const projectsData = [
     title: "IRK",
     description: "Flutter Application",
     image: "/images/projects/5.jpeg",
-    secondaryImages: ["/images/projects/5a.jpeg", "/images/projects/5b.jpeg","/images/projects/5c.jpeg","/images/projects/5e.jpeg","/images/projects/5f.jpeg"],
+    secondaryImages: ["/images/projects/5a.jpeg", "/images/projects/5b.jpeg","/images/projects/5c.jpeg","/images/projects/5e.jpeg","/images/projects5f.jpeg"],
     tag: ["All","Mobile Apps"],
     gitUrl: "https://github.com/sajjadali0057",
     previewUrl: "https://github.com/sajjadali0057/IRK",
   },
-  // Add additional project objects similarly
 ];
+
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
@@ -111,14 +111,14 @@ const ProjectsSection = () => {
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
-  title={project.title}
-  description={project.description}
-  imgUrl={project.image}
-  gitUrl={project.gitUrl}
-  previewUrl={project.previewUrl}
-  secondaryImages={project.secondaryImages} // Pass secondary images
-  onClick={() => handleImageClick(project)}
-/>
+              title={project.title}
+              description={project.description}
+              imgUrl={project.image}
+              gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
+              secondaryImages={project.secondaryImages} // Pass secondary images
+              onClick={() => handleImageClick(project)}
+            />
           </motion.li>
         ))}
       </ul>
@@ -141,7 +141,7 @@ const ProjectsSection = () => {
                   key={index}
                   src={img}
                   alt={`Secondary ${index}`}
-                  className="w-full h-32 object-cover rounded"
+                  className="w-full h-48 object-cover rounded-md"
                 />
               ))}
             </div>

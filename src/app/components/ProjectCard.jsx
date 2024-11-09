@@ -15,7 +15,7 @@ const ProjectCard = ({
     <div>
       {/* Main Project Image */}
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
+        className="h-52 sm:h-72 md:h-80 lg:h-96 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         onClick={onClick}
       >

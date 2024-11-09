@@ -9,10 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Mobile Application Development</li>
+        <li>Mobile Application Development: Flutter, Dart, Firebase, MongoDB, WooCommerce, RESTful APIs, Third-Party SDKs, API Integration, Push Notifications</li>
         <li>Architectures: MVVM, MVC, Clean Architecture, SOLID Principles</li>
         <li>State Management: Bloc, Cubit, Provider</li>
-        <li> Dependency Injection: GetIt</li>
+        <li>Dependency Injection: GetIt</li>
         <li>UI/UX Design: Responsive UI, Adaptive Layouts, Material Design, Custom Animations</li>
         <li>Performance Optimization: Memory Management, Efficient Rendering</li>
         <li>Tools: Android Studio, Visual Studio Code, Xcode, Flutter SDK</li>
@@ -27,9 +27,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelor of Science in Computer Science
-The University of Lahore  Lahore, Pakistan
-2017 to 2022</li>
+        <li>Bachelor of Science in Computer Science <br></br>
+The University of Lahore<br></br>
+Lahore, Pakistan <br></br>
+2017 - 2022</li>
       </ul>
     ),
   },
@@ -39,12 +40,10 @@ The University of Lahore  Lahore, Pakistan
     content: (
       <ul className="list-disc pl-2">
        <li>Basic Development With
-       Flutter Part II</li>
+       Flutter</li>
        <Link href="/cert1.pdf" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Flutter part II
+                Flutter Development
               </span> </Link>
-
-
               <li>Object Oriented Programming
               Foundations</li>
               <Link href="/cert2.pdf" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -65,7 +64,7 @@ The University of Lahore  Lahore, Pakistan
     id: "experiences",
     content: (
       <ul className="list-disc pl-2">
-        <li>Flutter Developer, Global Innovative  Lahore, Pakistan (2022  2024)</li>
+        <li>Flutter Developer, Global Innovative  Lahore, Pakistan (2022 - 2024)</li>
         <p>Engineered high-performance mobile applications using Flutter, ensuring smooth user experiences on both Android and iOS platforms. Collaborated cross-functionally with product, UX/UI, and QA teams to deliver feature-rich applications. Integrated APIs, led performance optimization, and implemented Clean Architecture for scalable solutions. Mentored developers, conducted code reviews, and followed Agile methodologies for timely delivery.</p>
 
         <li>Web Development Intern, Stellavant Technologies  Lahore, Pakistan (2021)</li>
@@ -97,7 +96,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a skilled Flutter developer based in Lahore with a strong background in mobile application development. I specialize in creating responsive and adaptive UIs with clean architecture principles, using state management tools like Bloc, Cubit, and Provider. I emphasize performance optimization and efficient rendering in my projects, leveraging tools like Android Studio, VS Code, and Xcode. Skilled in Git, API integration, and agile methodologies, I bring a comprehensive approach to cross-platform app development.
+          Skilled Flutter developer based in Lahore with extensive experience in mobile application development. Specialize in building responsive, adaptive UIs while following clean architecture principles to ensure scalable and maintainable code. Proficient in state management tools like Bloc, Cubit, and Provider, with a focus on optimizing performance and ensuring smooth rendering. Experienced with Android Studio, VS Code, and Xcode, as well as integrating APIs and using Git for version control. Combines strong problem-solving abilities with agile methodologies to ensure efficient and high-quality cross-platform app development.
           </p>
           <div className="flex overflow-x-auto mt-8 space-x-2">
             <TabButton
