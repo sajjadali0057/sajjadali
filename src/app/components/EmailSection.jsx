@@ -15,7 +15,8 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let`&apos;s Connect
           <br></br>
-          My Number +92-312-9990373
+          My Number <br /> +92-312-9990373 <br/>
+          +971-50-7494689
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
